@@ -11,7 +11,7 @@
 		;       Write a subroutine that decodes a H(15, 11) block to extract
 		;       the 11 data bits. Call it `hdecode`. It should:
 		;       - calculate the correcting code
-		;       - dentify the case: no error (noer), one-bit error (onee)
+		;       - identify the case: no error (noer), one-bit error (onee)
 		;       - write the result in `case` using the encoding provided
 		;       - if there is a one-bit error, write the number of the
 		;         erroneous bit in `berr`
